@@ -56,8 +56,7 @@ console.log(1 / 0); //--> Infinity
 console.log(0.1+0,2);  // -> 0.300000004  js shunday
 console.log(15e4);    // -> 15 0000  -> buerrda ( ' e4=10^4 ' ) barobar.
 console.log(15e-3);  // -> 0.015  -> bunda (" 15 / 1000 ") shu ko'rinishda matematik amal bajarilga hisoblanadi.
-console.log(15e - 7); -> 143  -> bunda agar biz " - " oldin va kegin  bo'sh joy tashlasak quydagija ish amalga oshadi 
-( "150 - 7 = 143 " ) ko'rinishida .
+console.log(15e - 7); // -> 143  -> bunda agar biz " - " oldin va kegin  bo'sh joy tashlasak quydagija ish amalga oshadi ( "150 - 7 = 143 " ) ko'rinishida .
 console.log(123_456_345); //-> 123456345 
 console.log("5"**2); // -> 25 -> yani bu amal ( ** ) 5^2 degani (5*5=25) ko'rinishida .
 ```
@@ -119,7 +118,7 @@ let b = 56;
 console.log(--a); //--> 22  --> yani bunda 23-1=22 korinishida
 console.log(++b); //--> 57  --> yani bunda 56+1=57 korinishida
 ```
-##  9.  Comporison operatoris -> Taqqoslash aperato'rlari 
+##  10.  Comporison operatoris -> Taqqoslash aperato'rlari 
 - taqqoslash aperato'rlari quydagilar ( == , === ,  != , !== , >  , >= , < , <= ). Bunda " == " faqat qiymatlarni tengligini tekshiradi , " ===" bunda nafaqat qiymatlaarni balki tayplarini ham tengligini tekshiradi .
 
 ```
